@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "gen": "openapi-generator-cli generate -g rust -i docs/api.yml -o openapi"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.7.0",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "daisyui": "^3.6.1",
+    "tailwindcss": "^3.3.3"
+  }
+}

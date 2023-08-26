@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: Github API
+  version: '1.0.0'
+servers:
+  - url: https://api.github.com
+    description: Github API
+    variables:
+      api_versions:
+        default: v1
+        enum:
+          - v1
+paths:
+  '/search/repositories':
+    get:
+      parameters:
+         - in: query
+           name: q
+           description: keyword
+           schema:
+             type: string
+      responses:
+        '200':
+          description: A list of repositories
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReposResponse'
+
+components:
+  schemas:
+    ReposResponse:
+      $ref: schemas/responses/repos_response.yml

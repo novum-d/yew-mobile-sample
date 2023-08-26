@@ -1,0 +1,22 @@
+type: object
+properties:
+  full_name:
+    type: string
+    nullable: false
+    example: "novum-d"
+  owner:
+    $ref: owner.yml
+  language:
+    type: string
+    nullable: false
+    example: "rust"
+  stargazers_count:
+    type: integer
+    nullable: false
+    format: int64
+    example: 0 
+  forks_count:
+    type: integer
+    nullable: false
+    format: int64
+    example: 0 

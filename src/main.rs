@@ -1,0 +1,6 @@
+use yew_mobile_sample_ui::App;
+
+fn main() {
+    wasm_logger::init(wasm_logger::Config::default());
+    yew::Renderer::<App>::new().render();
+}

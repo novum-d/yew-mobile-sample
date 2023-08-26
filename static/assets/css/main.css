@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0; 
+  width: 100%; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+main {
+  height: calc(100dvh - theme('spacing.16'));
+}
+
+.main-clamp {
+  width: clamp(23ch, 80%, 120ch);
+}
+
+.searchbar-clamp{
+  width: clamp(23ch, 80%, 64ch);
+}
+
+@layer utilities {
+  .hidden-scrollbar {
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .hidden-scrollbar::-webkit-scrollbar {
+    /* Chrome, Safari */
+    display: none;
+  }
+
+  .svg-icon {
+    @apply fill-current h-5 w-5 shrink-0;
+  }
+}
