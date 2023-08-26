@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=rust-analyzer,rust,node,macos,visualstudiocode,androidstudio,xcode
 
 openapi
+openapitools.json
 
 ### macOS ###
 # General
