@@ -15,6 +15,7 @@ js-sys = "0.3"
 log = "0.4.6"
 wasm-logger = "0.2.0"
 openapi = { path = "openapi" }
+getrandom = { version = "0.2", features = ["js"] }
 
 [workspace]
 members = ["src-tauri", "openapi"]
