@@ -57,9 +57,9 @@ module.exports = {
 
 ### Trunk
 ```
+rustup target add wasm32-unknown-unknown
 cargo install --locked trunk
 cargo install --locked wasm-bindgen-cli
-cargo install --locked wasm32-unknown-unknown
 ```
 
 ### Open API
