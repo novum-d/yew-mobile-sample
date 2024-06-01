@@ -59,6 +59,7 @@ module.exports = {
 ```
 cargo install --locked trunk
 cargo install --locked wasm-bindgen-cli
+cargo install --locked wasm32-unknown-unknown
 ```
 
 ### Open API
