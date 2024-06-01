@@ -1,3 +1,14 @@
+## デモ
+
+
+https://github.com/novum-d/yew-mobile-sample/assets/68803158/d2c989e1-9225-4659-93ad-e7c3efd95879
+
+
+Android側は、インターネット通信をしようとするとクラッシュしておちる(この時点ではα)。
+
+
+## Cargo.toml以外の依存関係
+
 ## tailwind css
 
 ### 1. tailwind cssのインストール
@@ -46,6 +57,7 @@ module.exports = {
 
 ### Trunk
 ```
+rustup target add wasm32-unknown-unknown
 cargo install --locked trunk
 cargo install --locked wasm-bindgen-cli
 ```
