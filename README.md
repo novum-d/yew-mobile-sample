@@ -1,10 +1,7 @@
 ## デモ
 
 
-https://github.com/novum-d/yew-mobile-sample/assets/68803158/d2c989e1-9225-4659-93ad-e7c3efd95879
-
-
-Android側は、インターネット通信をしようとするとクラッシュしておちる(この時点ではα)。
+![aadc23a725760cf4cd2d88dedd2008ee](https://github.com/novum-d/yew-mobile-sample/assets/68803158/19f4e92f-fa00-409c-bc40-499bd36ec825)
 
 
 ## Cargo.toml以外の依存関係
